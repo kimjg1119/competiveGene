@@ -30,6 +30,11 @@ class Gene
 	{
 		int[] arr=new int[geneNumTemp];
 		System.arraycopy(mygene, 0, arr, 0, geneNumTemp);
+		geneNum=geneNumTemp;
+	}
+	public int returnGeneNum()
+	{
+		return geneNum;
 	}
 }
 
